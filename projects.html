@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Apply similar styles as index.css */
+        body {
+            background-color: #421f4c;
+            color: #e9e2f8;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        header {
+            background-image: url('ugh.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 50px;
+            color: #fbc7ff;
+            margin-top: 20px;
+        }
+
+        .link-button {
+            display: block;
+            width: 30%;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background: #27122b;
+            color: #fbc7ff;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .link-button:hover {
+            background: #f184be;
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-image: url('starry.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #fbc7ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+
+    <!-- Home button -->
+    <button class="link-button" onclick="navigateHome()">Home</button>
+
+    <!-- Links as buttons -->
+    <a href="https://nabilar7.github.io/Final-Project-Ghost-Schoo/" class="link-button" target="_blank">Ghost School</a>
+    <a href="https://nabilar7.github.io/Make-a-Recipe-NabilaRaisa1/" class="link-button" target="_blank">Recipe Making</a>
+    <a href="https://nabilar7.github.io/Make-A-Card-NabilaRaisa1/" class="link-button" target="_blank">Card Making </a>
+    <a href="https://nabilar7.github.io/CSS-Rules-Challenge-NabilaRaisa1/" class="link-button" target="_blank">CSS Rules</a>
+    <a href="https://nabilar7.github.io/Codeorg-Unit-1-4-REVIEW-NabilaRaisa1/" class="link-button" target="_blank">Unit 1-4</a>
+    <a href="https://nabilar7.github.io/IT_Specialist_HTML-CSS_SupportFiles/" class="link-button" target="_blank">Domain Navigation</a>
+    <a href="https://nabilar7.github.io/Project-Digital-Dilemma-WDp78-9/ " class="link-button" target="_blank">Digital Dilemma</a>
+    <a href="https://towafh.github.io/DesignLeagueTeam/NabilaRaisa/nabilaRaisa.html " class="link-button" target="_blank">Ninja Project</a>
+   
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function navigateHome() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
 
